@@ -22,6 +22,7 @@ export class DatabaseModel {
      * Cliente de conexão com o banco de dados
      */
     private _client: pg.Client;
+    static query: any;
 
     /**
      * Construtor da classe DatabaseModel.
