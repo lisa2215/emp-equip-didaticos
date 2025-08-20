@@ -2,7 +2,7 @@ import express from "express";
 import { SERVER_ROUTES } from "./appconfig.js";
 import UsuarioController from "./controller/UsuarioContreller.js";
 import EquipamentoController from "./controller/EquipamentoController.js";
-import EmprestimoController from "./controller/EmprestimoController.js";
+import EmprestimoController from "./controller/EquipamentoController.js";
 const router = express.Router();
 
 router.get('/', (req, res) => {
